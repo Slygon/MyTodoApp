@@ -21,15 +21,15 @@
         android:layout_marginBottom="5dp"
         android:text="is connected? " />
 
-    <TextView
+    <EditText
         android:id="@+id/etResponse"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:ems="10"
         android:layout_marginTop="10dp"
-        android:inputType="textMultiLine" />
-    <!--<requestFocus />-->
-    <!--</TextView>-->
+        android:inputType="textMultiLine" >
+    <requestFocus />
+    </EditText>
 
     <ListView
         android:id="@+id/mainListView1"
